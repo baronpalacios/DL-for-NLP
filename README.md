@@ -16,6 +16,7 @@ Training data is formed from the corpus by jut using a set of words followed by 
 Part 2.1: NextWordPrediction using only last 4 previouswords using CNN
 The first algorithm for word prediction will use always four input words followed by a fifth word to be predicted. The above examples become:
 Training data:
+
 ![Captfffure](https://user-images.githubusercontent.com/32982938/59378179-673bf100-8d5c-11e9-8d55-acac275a306d.PNG)
 
 Use perplexity measure to measure the performance of your algorithm.
@@ -24,5 +25,9 @@ This time assume that you can use the original data sequence above. For this, yo
 Use perplexity measure to measure the performance of your algorithm.
 Part 3: NextWordPredictionGivenPartialWord
 Training data is formed from the corpus by just using a set of words followed by the next word:
+
+
 ![Capssture](https://user-images.githubusercontent.com/32982938/59378292-a9fdc900-8d5c-11e9-8701-3a2654ac5669.PNG)
+
+
 Use perplexity measure to measure the performance of your algorithm.
