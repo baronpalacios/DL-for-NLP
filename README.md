@@ -9,19 +9,15 @@ Part 2: NextWordPrediction
 Train a network that can predict the next word given a set of words of a sentence. Use the trwiki text for obtaining the data.
 Training data is formed from the corpus by jut using a set of words followed by the next word. For example, if you are given the following as the corpus:
 
+![Capture](https://user-images.githubusercontent.com/32982938/59377991-03b1c380-8d5c-11e9-89ea-ee6cae1bd60b.PNG)
 
 
 
 Part 2.1: NextWordPrediction using only last 4 previouswords using CNN
 The first algorithm for word prediction will use always four input words followed by a fifth word to be predicted. The above examples become:
 Training data:
-Makine öğrenimi bilgisayarların algılayıcı  verisi
-öğrenimi bilgisayarların algılayıcı verisi  ya
-bilgisayarların algılayıcı verisi ya  da
-algılayıcı verisi ya da  veritabanları
-verisi ya da veritabanları  gibi
-ya da veritabanları gibi  veri
-…
+![Captfffure](https://user-images.githubusercontent.com/32982938/59378179-673bf100-8d5c-11e9-8d55-acac275a306d.PNG)
+
 Use perplexity measure to measure the performance of your algorithm.
 Part 2.2: NextWordPrediction using arbitraray many previous words using LSTM
 This time assume that you can use the original data sequence above. For this, you musht use an LSTM-like algorithm as the data may have varying number of words as input.
