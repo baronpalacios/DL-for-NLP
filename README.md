@@ -24,18 +24,5 @@ This time assume that you can use the original data sequence above. For this, yo
 Use perplexity measure to measure the performance of your algorithm.
 Part 3: NextWordPredictionGivenPartialWord
 Training data is formed from the corpus by just using a set of words followed by the next word:
-Makine  ö
-Makine ö  ğrenimi
-Makine öğ  renimi
-Makine öğr  enimi
-…
-Makine öğrenimi  ‘ ‘
-Makine öğrenimi  b
-Makine öğrenimi b  i
-Testing…
-B  u
-Bu  n
-Bun  u
-Bunu  n
-…
+![Capssture](https://user-images.githubusercontent.com/32982938/59378292-a9fdc900-8d5c-11e9-8701-3a2654ac5669.PNG)
 Use perplexity measure to measure the performance of your algorithm.
